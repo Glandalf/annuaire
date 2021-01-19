@@ -53,7 +53,8 @@ export default {
         let formParams = new FormData();
         formParams.append("photo",files);
         formParams.append("id",1);
-
+        
+        console.log('ID BEFORE POST',  this.id);
         console.log(formParams);
 
         const requestOptions = {
